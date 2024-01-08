@@ -44,6 +44,6 @@ public class Main {
         long result = fib_improved(n - 1, solutions) + fib_improved(n - 2, solutions);
         solutions.put(n, result);
 
-        return solutions.get(n);
+        return result;
     }
 }
